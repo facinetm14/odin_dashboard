@@ -5,6 +5,6 @@ Feel free to visit 👉 <a href="https://cdn.statically.io/gh/TheOdinProject/cur
 ## Outcome
 Throughout this project, I utilized several Css properties mostly flexbox and grid which allowed me to easily place each components. 
 ## Preview
-<a>https://facinetm14.github.io/Odin_landing_page/<a/>
+<a href="https://facinetm14.github.io/odin_dashboard/">https://facinetm14.github.io/odin_dashboard/<a/>
 ## Feedback 
 Do you have feedback ? Yes please.
