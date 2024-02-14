@@ -241,6 +241,11 @@ main {
                 display: flex;
                 column-gap: 5px;
             }
+
+        }
+
+        .trending-username {
+            font-weight: bold;
         }
     }
 }
