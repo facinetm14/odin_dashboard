@@ -12,7 +12,8 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <a class="title" href="#"><span class="mdi mdi-menu"></span> Dashboard</a>
+            <a class="title" href="#"><span class="mdi mdi-menu title-icon"></span><span
+                    class="title-text">Dashboard</span></a>
             <ul class="features">
                 <li class="item"><a href="#"><span class="mdi mdi-home"></span>&nbsp;&nbsp;Home</a></li>
                 <li class="item"><a href="#"><span class="mdi mdi-card-account-details"></span>&nbsp;&nbsp;Profile</a>
@@ -30,7 +31,27 @@
             </ul>
         </div>
         <div class="main">
-            <header></header>
+            <nav>
+                <div class="search-block">
+                    <label for="search" class="search-label"><span class="mdi mdi-magnify"></span></label>
+                    <input type="search" name="search" class="search-input" id="search-input" />
+                </div>
+                <a href="#" class="notification"><span class="mdi mdi-bell-ring-outline"></span></a>
+                <div class="user-profile">
+                    <img src="./images/profile-fk.jpg" class="profile-img" alt="user's profile" width="40" height="40">
+                </div>
+                <span class="user-name">Facinet Kouyate</span>
+                <div class="user-profile--large">
+                    <img src="./images/profile-fk.jpg" class="profile-img" alt="user's profile" width="65" height="65">
+                </div>
+                <div class="profile-infos">
+                    <small class="greetings">Hi there,</small><br />
+                    <span class="user-name">Facinet Kouyate (@facinetm14)</span>
+                </div>
+                <button class="nav-btn btn-new">New</button>
+                <button class="nav-btn btn-upload">Upload</button>
+                <button class="nav-btn btn-share">Share</button>
+            </nav>
             <main>
                 <div class="content"></div>
                 <aside class="annouces"></aside>
